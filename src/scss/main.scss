@@ -1,0 +1,37 @@
+@use "reset.scss";
+
+.wrap{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.colour{
+	height: 100vh;
+	width: 100%;
+}
+
+.h-ec5c28{
+	background-color: #ec5c28;
+}
+.h-2e52a0{
+	background-color: #2e52a0;
+}
+
+.h-7e9b7d{
+	background-color: #7e9b7d;
+}
+.h-d7b669{
+	background-color: #d7b669;
+}
+.h-f9c6c2{
+	background-color: #f9c6c2;
+}
+.h-c0e0db{
+	background-color: #c0e0db;
+}
+.h-f3e8d4{
+	background-color: #f3e8d4;
+}
+

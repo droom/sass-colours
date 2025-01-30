@@ -1,0 +1,88 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.colour {
+  height: 100vh;
+  width: 100%;
+}
+
+.h-ec5c28 {
+  background-color: #ec5c28;
+}
+
+.h-2e52a0 {
+  background-color: #2e52a0;
+}
+
+.h-7e9b7d {
+  background-color: #7e9b7d;
+}
+
+.h-d7b669 {
+  background-color: #d7b669;
+}
+
+.h-f9c6c2 {
+  background-color: #f9c6c2;
+}
+
+.h-c0e0db {
+  background-color: #c0e0db;
+}
+
+.h-f3e8d4 {
+  background-color: #f3e8d4;
+}
